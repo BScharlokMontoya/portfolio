@@ -1,0 +1,48 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Asegurar que el texto sea fácil de leer */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+}
+
+/* Eliminar estilos predeterminados de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Eliminar subrayado en enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Ajustes básicos en imágenes */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Asegurar que los elementos tengan el mismo padding/margin en todos los navegadores */
+button,
+input,
+textarea {
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
+
+/* Centrar el contenido */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
